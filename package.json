@@ -5,7 +5,7 @@
   "packageManager": "pnpm@9.15.4",
   "scripts": {
     "dev": "pnpm --filter @workspace/samadhan run dev",
-    "build": "pnpm --filter @workspace/samadhan run build",
+    "build": "pnpm --filter @workspace/samadhan run build && node -e \"require('fs').cpSync('artifacts/samadhan/dist', 'dist', {recursive: true})\"",
     "typecheck": "pnpm -r --if-present run typecheck"
   },
   "private": true,

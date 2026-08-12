@@ -1,8 +1,6 @@
 {
-  "framework": "vite",
-  "installCommand": "pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm run build",
-  "outputDirectory": "artifacts/samadhan/dist",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
