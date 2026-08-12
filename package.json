@@ -1,0 +1,16 @@
+{
+  "name": "samadhan-workspace",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --filter @workspace/samadhan run dev",
+    "build": "pnpm --filter @workspace/samadhan run build",
+    "typecheck": "pnpm -r --if-present run typecheck"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.9.5",
+    "typescript": "~5.9.3"
+  }
+}
+
