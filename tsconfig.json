@@ -4,13 +4,7 @@
   "files": [],
   "references": [
     {
-      "path": "./lib/db"
-    },
-    {
-      "path": "./lib/api-client-react"
-    },
-    {
-      "path": "./lib/api-zod"
+      "path": "./artifacts/samadhan"
     }
   ]
 }

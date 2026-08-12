@@ -1,8 +1,5 @@
 packages:
-  - artifacts/*
-  - lib/*
-  - lib/integrations/*
-  - scripts
+  - artifacts/samadhan
 
 catalog:
   '@tailwindcss/vite': ^4.1.14
@@ -30,4 +27,3 @@ autoInstallPeers: false
 overrides:
   '@esbuild-kit/esm-loader': 'npm:tsx@^4.21.0'
   esbuild: '0.27.3'
-
