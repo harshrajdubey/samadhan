@@ -2,6 +2,7 @@
   "name": "samadhan-workspace",
   "version": "1.0.0",
   "license": "MIT",
+  "packageManager": "pnpm@9.15.4",
   "scripts": {
     "dev": "pnpm --filter @workspace/samadhan run dev",
     "build": "pnpm --filter @workspace/samadhan run build",
@@ -13,4 +14,3 @@
     "typescript": "~5.9.3"
   }
 }
-
